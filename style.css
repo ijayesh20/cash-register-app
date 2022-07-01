@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #CCC;
+    --secondary-color: #bbf7d0;
+    --red-color: #f00;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.heading, .description{
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 8px 0;
+    display: inline-block;
+}
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+.div-btn {
+    text-align: center;
+}
+#err-msg {
+    text-align: center;
+    color: var(--red-color);
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--primary-color);
+    padding: 12px 10px;
+    width: 500px;
+    height: 550px;
+}
+table,tr,th,td {
+    border: 0.5px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+.change-table {
+    margin: 20px auto;
+    background-color: #e5e5e5;
+}
+caption {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
