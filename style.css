@@ -58,3 +58,12 @@ caption {
     font-size: 18px;
     padding-bottom: 10px;
 }
+@media all and (max-width: 500px) {
+    .container {
+        width: 90%;   
+}
+    .change-table th,tr,td {
+        margin: 0;
+        padding: 8px;
+    }
+}
