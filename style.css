@@ -62,6 +62,7 @@ caption {
 @media all and (max-width: 500px) {
     .container {
         width: 90%; 
+        height: 90%;
 }
     .change-table th,tr,td {
         margin: 0;
